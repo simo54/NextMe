@@ -1,7 +1,11 @@
-import React from "react";
+import MainLayout from "../components/layouts/MainLayout";
 
-const Projects = () => {
-  return <div>Projects</div>;
+const projects = () => {
+  return (
+    <MainLayout>
+      <div>Project</div>
+    </MainLayout>
+  );
 };
 
-export default Projects;
+export default projects;

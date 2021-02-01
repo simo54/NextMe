@@ -1,32 +1,15 @@
-import Head from "next/head";
+import MainLayout from "../components/layouts/MainLayout";
 
-export default function Home() {
+const home = () => {
   return (
-    <div className="container">
-      <Head>
-        <title>Title</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+    <MainLayout>
       <main>
         <h1 className="title">Simone Sorze</h1>
 
         <p className="description">
           <code>A Full-Stack Developer</code>
         </p>
-
-        <div className="grid">body</div>
       </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by Meself with ❤
-        </a>
-      </footer>
 
       <style jsx>{`
         .container {
@@ -173,6 +156,8 @@ export default function Home() {
           box-sizing: border-box;
         }
       `}</style>
-    </div>
+    </MainLayout>
   );
-}
+};
+
+export default home;

@@ -1,7 +1,11 @@
-import React from "react";
+import MainLayout from "../components/layouts/MainLayout";
 
-const Blog = () => {
-  return <div>Miniblog</div>;
+const blog = () => {
+  return (
+    <MainLayout>
+      <p>This is the blog</p>
+    </MainLayout>
+  );
 };
 
-export default Blog;
+export default blog;
