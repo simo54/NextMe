@@ -5,7 +5,11 @@ const NavigationBar = () => {
   return (
     <div>
       <Layout>
-        <Header>Navigation</Header>
+        <nav className="menuBar">
+          <div className="logo">
+            <a href="">logo</a>
+          </div>
+        </nav>
       </Layout>
     </div>
   );
