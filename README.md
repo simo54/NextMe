@@ -1,1 +1,3 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# NextMe
+
+NextMe is a personal curriculum website developed with Next.js.

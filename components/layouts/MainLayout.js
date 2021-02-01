@@ -1,12 +1,12 @@
 import Navigation from "../Navigationbar/index";
-import HeadContainer from "../Head/index";
 import Footer from "../Footer/index";
+import HeadContainer from "../HeadContainer/index";
 
 const MainLayout = (props) => {
   return (
     <div>
-      <Navigation />
       <HeadContainer />
+      <Navigation />
       {props.children}
       <Footer />
     </div>

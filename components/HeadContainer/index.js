@@ -1,10 +1,11 @@
 import Head from "next/head";
+import { NAME } from "../../utils/dictionary";
 
 const HeadContainer = () => {
   return (
     <div>
       <Head>
-        <title>Title</title>
+        <title>🐱‍👤 {NAME}</title>
       </Head>
     </div>
   );
