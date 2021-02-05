@@ -1,4 +1,5 @@
 import { NAME, TECH_TITLE } from "../../utils/dictionary";
+import styles from "./style/Header.module.css";
 
 const Header = () => {
   return (
