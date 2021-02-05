@@ -1,5 +1,5 @@
 import MainLayout from "../components/layouts/MainLayout";
-
+import { Row, Col } from "antd";
 const blog = () => {
   return (
     <MainLayout>
