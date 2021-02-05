@@ -1,39 +1,29 @@
-.menuBar {
-  padding: 0 25px;
-  border-bottom: solid 1px #e8e8e8;
-  overflow: auto;
-  box-shadow: 0 0 30px #f3f1f1;
+.linkBox {
+  margin: 0 100px;
 }
 
-.logo {
-  width: 200px;
-  float: left;
+.navRow {
+  padding: 20px;
 }
 
-.logo a {
-  display: inline-block;
-  font-size: 40px;
-  padding: 19px 20px;
-}
-
-@media (max-width: 767px) {
-  .logo a {
-    margin-left: -20px;
+@media (max-width: 576px) {
+  .linkBox {
+    margin: 0 100px;
   }
-
-  .logo a {
-    padding: 10px 20px;
+  .navRow {
+    padding: 20px;
   }
 }
 
-/* Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-}
-
-Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+  .linkBox {
+    margin: 0 100px;
+  }
+  .navRow {
+    padding: 20px;
+  }
 }
-
+/*
 Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 }

@@ -7,22 +7,16 @@ const NavigationBar = () => {
   return (
     <div>
       <Layout>
-        <Row justify="center" gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+        <Row justify="center" className={styles.navRow}>
           <Col align="center">
-            <a span={5} href="/blog">
+            <a href="/blog" className={styles.linkBox}>
               {BLOG}
             </a>
-            <a span={5} href="/projects">
+            <a href="/projects" className={styles.linkBox}>
               {PROJECTS}
             </a>
           </Col>
         </Row>
-        {/* <nav className={styles.menuBar}>
-          <div className={styles.logo}>
-            <a href="/blog">{BLOG}</a>
-            <a href="/projects">{PROJECTS}</a>
-          </div>
-        </nav> */}
       </Layout>
     </div>
   );
