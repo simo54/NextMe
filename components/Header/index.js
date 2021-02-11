@@ -6,14 +6,12 @@ const Header = () => {
   return (
     <div>
       <Row>
-        <Col>
-          <header className={styles.headerMainTitle}>
-            <h1>{NAME}</h1>
-            <p>
-              <code>{TECH_TITLE}</code>
-            </p>
-          </header>
-        </Col>
+        <header className={styles.headerMainTitle} align="center">
+          <h1>{NAME}</h1>
+          <p>
+            <code>{TECH_TITLE}</code>
+          </p>
+        </header>
       </Row>
     </div>
   );
