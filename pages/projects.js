@@ -7,7 +7,7 @@ const projects = () => {
     <MainLayout>
       <div className="site-card-wrapper">
         <Row>
-          <Col>
+          <Col xs={24} sm={16} md={10} lg={6} xl={6}>
             <Card
               cover={
                 <img
@@ -19,7 +19,7 @@ const projects = () => {
               <Meta title="Card title" description="This is the description" />
             </Card>
           </Col>
-          <Col>
+          <Col xs={24} sm={16} md={10} lg={6} xl={6}>
             <Card
               cover={
                 <img
@@ -31,7 +31,7 @@ const projects = () => {
               <Meta title="Card title" description="This is the description" />
             </Card>
           </Col>
-          <Col>
+          <Col xs={24} sm={16} md={10} lg={6} xl={6}>
             <Card
               cover={
                 <img
